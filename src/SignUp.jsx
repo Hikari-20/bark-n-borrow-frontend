@@ -30,6 +30,7 @@ function SignUp() {
   return (
     <div>
       <h1>Sign Up</h1>
+      <p>Please fill in the form below to create your account.</p>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Student Email"
